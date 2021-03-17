@@ -2,10 +2,10 @@ public abstract class ZakladneZariadenie implements Zariadenie{
     protected boolean stav = false;
     protected String nazov;
 
-    public ZakladneZariadenie(){
+    /*public ZakladneZariadenie(){
         this.stav = stav;
         this.nazov = nazov;
-    }
+    }*/
 
     public ZakladneZariadenie(String nazov) {
         this.nazov = nazov;

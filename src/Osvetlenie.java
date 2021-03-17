@@ -1,6 +1,6 @@
 public class Osvetlenie extends ZakladneZariadenie implements Zariadenie{
-    public Osvetlenie(){
-        super();
+    public Osvetlenie(String nazov){
+        super(nazov);
         this.nazov = nazov;
         this.stav = stav;
     }

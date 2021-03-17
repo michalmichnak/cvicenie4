@@ -1,7 +1,7 @@
 public class Program {
     public static void main(String[] args) {
         Dom Dom1 = new Dom();
-        Dom1.osvetlenie = new Osvetlenie();
+        Dom1.osvetlenie = new Osvetlenie("Ledka1");
         Dom1.vykurovanie = new Vykurovanie("Dom1");
 
 
